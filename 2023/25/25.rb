@@ -84,6 +84,8 @@ def union(subsets, x, y)
   end
 end
 
+# Karger’s algorithm for Minimum Cut
+# Borrowed heavily from https://www.geeksforgeeks.org/introduction-and-implementation-of-kargers-algorithm-for-minimum-cut/
 def min_cut(graph)
   node_count = graph.nodes.size
   edges = graph.edges
@@ -110,7 +112,6 @@ def min_cut(graph)
     subset2 = find(subsets, edge.dest)
     cut_edges << edge if subset1 != subset2
   end
-  puts "Cut edges: #{cut_edges.map(&:to_s).join(', ')}"
   cut_edges
 end
 
