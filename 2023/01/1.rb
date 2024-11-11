@@ -28,7 +28,7 @@ def convert(digit)
 end
 
 def sanitize(line)
-  REPLACEMENTS.inject(line.strip) do |k, v|
+  REPLACEMENTS.inject(line.strip) do |line, (k, v)|
     line.gsub(k, v)
   end
 end
