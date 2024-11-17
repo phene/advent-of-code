@@ -16,7 +16,7 @@ def count_arrangements(springs, damaged_spring_counts)
   count = 0
   spring = springs[0]
 
-  # Keep counting damanged by skipping working spring and treat unknown as working
+  # Keep counting damaged by skipping working spring and treat unknown as working
   count += count_arrangements(springs[1..], damaged_spring_counts) if spring == WORKING || spring == UNKNOWN
 
   # Keep counting damaged or treat unknown as damaged
