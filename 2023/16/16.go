@@ -15,9 +15,9 @@ type V struct {
 
 func countEnergizedPositions(grid []string, start V) int {
 	gy, gx := len(grid)-1, len(grid[0])-1
-	visited := map[uint64]bool{}
+	visited := map[V]bool{}
 	positions := []V{start}
-	energizedPositions := map[uint32]bool{}
+	energizedPositions := map[V]bool{}
 	var visit V
 	var ndx, ndy int
 
@@ -27,14 +27,11 @@ func countEnergizedPositions(grid []string, start V) int {
 		x, y := visit.x+dx, visit.y+dy
 		if x < 0 || x > gx || y < 0 || y > gy {
 			continue
-		}
-
-		p := uint64(visit.x) + (uint64(visit.y) << 16) + (uint64(dx) << 32) + (uint64(dy) << 48)
-		if visited[p] {
+		} else if visited[visit] {
 			continue
 		}
-		visited[p] = true
-		energizedPositions[uint32(x)+(uint32(y)<<16)] = true
+		visited[visit] = true
+		energizedPositions[V{x, y, 0, 0}] = true
 
 		switch grid[y][x] {
 		case '.':
