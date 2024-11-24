@@ -33,7 +33,7 @@ end
 PART1 = (1..3)
 PART2 = (4..10)
 
-def traverse(grid, start = [0, 0], direction_range = PART2)
+def traverse(grid, start, direction_range)
   x_range = 0...grid.first.size
   y_range = 0...grid.size
   finish = [x_range.max, y_range.max]
@@ -67,8 +67,8 @@ def traverse(grid, start = [0, 0], direction_range = PART2)
     positions.sort_by!(&:last)
   end
 
-  finish_distance
+  0
 end
 
-puts traverse(grid, PART1)
-puts traverse(grid, PART2)
+puts traverse(grid, [0,0], PART1)
+puts traverse(grid, [0,0], PART2)
