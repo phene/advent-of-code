@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'pairing_heap'
+
 grid = []
 $stdin.readlines.lazy.map(&:chomp).each do |line|
   grid << line.chars.map(&:to_i)
@@ -37,11 +39,13 @@ def traverse(grid, start, direction_range)
   x_range = 0...grid.first.size
   y_range = 0...grid.size
   finish = [x_range.max, y_range.max]
-  positions = [[start, [1, 0], [], 0], [start, [0, 1], [], 0]]
+  queue = PairingHeap::MinPriorityQueue.new
+  queue.push([start, [1, 0], 0], 0)
+  queue.push([start, [0, 1], 0], 0)
   visited = Hash.new(Float::INFINITY)
 
-  while positions.any?
-    (x, y), (dx, dy), history, distance = positions.shift
+  while queue.any?
+    (x, y), (dx, dy), distance = queue.pop #positions.shift
 
     next if visited[[x, y, dx, dy]] <= distance
 
@@ -59,12 +63,12 @@ def traverse(grid, start, direction_range)
         else
           [ndx, ndy]
         end
-      positions << [[nx, ny], direction, history.dup.concat([[x, y]]), distance + grid[ny][nx]]
+      d = distance + grid[ny][nx]
+      item = [[nx, ny], direction, d]
+      queue.push(item, d) unless queue.include? item
     end
 
     visited[[x, y, dx, dy]] = distance
-
-    positions.sort_by!(&:last)
   end
 
   0
