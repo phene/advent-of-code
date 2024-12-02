@@ -241,6 +241,6 @@ puts part1_process_parts(workflows, parts)
 # Part 2
 accepted_paths, _ = workflow_paths(workflows)
 accepted_ranges = range_sets_from_paths(accepted_paths)
+accepted_ranges = merge_ranges(accepted_ranges)
 
-accepted_ranges = merge_ranges(merge_ranges(merge_ranges(accepted_ranges)))
 puts sum_combinations(accepted_ranges)
