@@ -11,8 +11,7 @@ list2.sort!
 
 sum1, sum2 = 0, 0
 list1.each_with_index do |a, i|
-  b = list2[i]
-  sum1 += (a - b).abs
+  sum1 += (a - list2[i]).abs
   sum2 += a * list2.count(a)
 end
 puts sum1, sum2

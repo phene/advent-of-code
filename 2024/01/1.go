@@ -11,8 +11,7 @@ import (
 
 func parseInput() ([]int, []int) {
 	scanner := bufio.NewScanner(os.Stdin)
-	listA := []int{}
-	listB := []int{}
+	listA, listB := []int{}, []int{}
 	for scanner.Scan() {
 		pair := strings.Split(scanner.Text(), "   ")
 		a, _ := strconv.Atoi(pair[0])
