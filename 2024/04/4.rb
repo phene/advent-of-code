@@ -31,10 +31,10 @@ def search_diagonal(grid, word = 'XMAS')
   grid.each_with_index do |line, y|
     last_x = 0
     line = line.join('')
-    while !last_x.nil?
+    loop do
       x = line.index(word[0], last_x)
       break unless x
-      last_x = x + 1
+      last_x = x.succ
       total += dx_dys.map do |(dx, dy)|
         fetch_diagonal_word(grid, x, y, dx, dy, word.size)
       end.count(word)
@@ -65,11 +65,11 @@ def search_x_mas(grid)
     next if y == 0 or y == grid.size - 1 # skip first and last rows. can't be on the edge
     last_x = 0
     line = line.join('')
-    while !last_x.nil?
+    loop do
       x = line.index('A', last_x)
       break unless x
-      last_x = x + 1
-      total += 1 if is_x_mas?(grid, x, y)
+      last_x = x.succ
+      total = total.succ if is_x_mas?(grid, x, y)
     end
   end
   total
