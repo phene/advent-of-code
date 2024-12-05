@@ -3,11 +3,10 @@
 page_deps = Hash.new { |h, k| h[k] = [] }
 page_updates = []
 $stdin.readlines.each do |line|
-  next if line.strip.empty?
-  if line.include?('|')
+  if line.include? '|'
     a, b = line.split('|').map(&:to_i)
     page_deps[a] << b
-  else
+  elsif line.include? ','
     page_updates << line.split(',').map(&:to_i)
   end
 end
