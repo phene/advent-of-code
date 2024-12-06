@@ -59,10 +59,8 @@ end
 
 def create_obstacle(grid, ox, oy)
   grid.each_with_index.map do |row, y|
-    if y == oy
-      (row[0...ox] + [OBSTACLE] + row[ox+1..])
-    else
-      row.dup
+    row.dup.tap do |newRow|
+      newRow[ox] = OBSTACLE if y == oy
     end
   end
 end

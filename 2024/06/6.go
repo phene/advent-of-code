@@ -32,6 +32,7 @@ var LEFT Direction = Direction{-1, 0}
 var RIGHT Direction = Direction{1, 0}
 var OBSTACLE byte = '#'
 var START_POSITION byte = '^'
+var EMPTY byte = '.'
 
 func (v *Visit) step() Visit {
 	return Visit{Position{v.pos.x + v.dir.dx, v.pos.y + v.dir.dy}, v.dir}
@@ -85,7 +86,7 @@ func (grid *Grid) step(visit *Visit) (*Visit, bool) {
 	return &nextVisit, false
 }
 
-func (grid *Grid) traverse() (PositionSet, bool) {
+func (grid *Grid) traverse() (*PositionSet, bool) {
 	visitedPositions := PositionSet{}
 	visits := map[Visit]bool{}
 	visit, _ := grid.start()
@@ -98,20 +99,15 @@ func (grid *Grid) traverse() (PositionSet, bool) {
 		visits[*visit] = true
 		visit, exited = grid.step(visit)
 	}
-	return visitedPositions, exited
+	return &visitedPositions, exited
 }
 
-func (grid *Grid) createObstacle(pos *Position) *Grid {
-	newGrid := make(Grid, len(*grid))
-	for y, row := range *grid {
-		newRow := make(Row, len(row))
-		copy(newRow, row)
-		if y == pos.y {
-			newRow[pos.x] = OBSTACLE
-		}
-		newGrid[y] = newRow
-	}
-	return &newGrid
+func (grid *Grid) createObstacle(pos *Position) {
+	(*grid)[pos.y][pos.x] = OBSTACLE
+}
+
+func (grid *Grid) removeObstacle(pos *Position) {
+	(*grid)[pos.y][pos.x] = EMPTY
 }
 
 func findLoops(grid *Grid, visited *PositionSet) int {
@@ -119,8 +115,9 @@ func findLoops(grid *Grid, visited *PositionSet) int {
 	start, _ := grid.start()
 	delete(*visited, start.pos) // Exclude starting position
 	for pos := range *visited {
-		newGrid := grid.createObstacle(&pos)
-		_, exited := newGrid.traverse()
+		grid.createObstacle(&pos)
+		_, exited := grid.traverse()
+		grid.removeObstacle(&pos)
 		if !exited {
 			loopCount += 1
 		}
@@ -128,18 +125,18 @@ func findLoops(grid *Grid, visited *PositionSet) int {
 	return loopCount
 }
 
-func parseInput() Grid {
+func parseInput() *Grid {
 	grid := Grid{}
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		grid = append(grid, Row(scanner.Text()))
 	}
-	return grid
+	return &grid
 }
 
 func main() {
 	grid := parseInput()
 	visitedPositions, _ := grid.traverse()
-	fmt.Println(len(visitedPositions))
-	fmt.Println(findLoops(&grid, &visitedPositions))
+	fmt.Println(len(*visitedPositions))
+	fmt.Println(findLoops(grid, visitedPositions))
 }
