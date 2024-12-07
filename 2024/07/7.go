@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -41,6 +40,7 @@ func parseInput() []Equation {
 	return equations
 }
 
+// Depth-first search for equation rule, branching on each operation
 func findOperations(equation *Equation, i int, partial int, ops []func(a, b int) int) bool {
 	if partial > equation.result {
 		return false
@@ -71,6 +71,6 @@ func main() {
 		}
 	}
 
-	fmt.Println(total1)
-	fmt.Println(total2)
+	println(total1)
+	println(total2)
 }

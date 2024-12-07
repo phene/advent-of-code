@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"os"
 	"slices"
 	"strconv"
@@ -39,6 +38,6 @@ func main() {
 		sum1 += max(a, listB[i]) - min(a, listB[i])
 		sum2 += a * count(listB, a)
 	}
-	fmt.Println(sum1)
-	fmt.Println(sum2)
+	println(sum1)
+	println(sum2)
 }

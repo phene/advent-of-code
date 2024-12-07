@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"os"
 	"regexp"
 	"strconv"
@@ -31,6 +30,6 @@ func main() {
 			}
 		}
 	}
-	fmt.Println(sum1)
-	fmt.Println(sum2)
+	println(sum1)
+	println(sum2)
 }

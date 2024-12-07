@@ -7,6 +7,7 @@ end
 
 OBSTACLE = '#'
 STARTING_POSITION = '^'
+EMPTY = '.'
 
 def off_map?(grid, x, y)
   return true if x < 0 or x >= grid[0].size
@@ -57,27 +58,28 @@ def traverse(grid) # returns positions and if guard exited
   [visited_positions, true]
 end
 
-def create_obstacle(grid, ox, oy)
-  grid.each_with_index.map do |row, y|
-    row.dup.tap do |newRow|
-      newRow[ox] = OBSTACLE if y == oy
-    end
-  end
+def with_obstacle(grid, x, y)
+  grid[y][x] = OBSTACLE
+  yield grid
+ensure
+  grid[y][x] = EMPTY
 end
 
 def place_obsticles_and_find_loops(grid, visited)
-  loop_obstacles = []
+  loop_count = 0
   (x0, y0), _ = start_position(grid)
   visited.delete([x0, y0]) # Excluding starting position
   visited.each do |(x, y)|
-    _, exited = traverse(create_obstacle(grid, x, y))
-    loop_obstacles << [x, y] unless exited
+    with_obstacle(grid, x, y) do |grid|
+      _, exited = traverse(grid)
+      loop_count = loop_count.succ unless exited
+    end
   end
-  loop_obstacles
+  loop_count
 end
 
 original_visited, _ = traverse(grid)
 puts original_visited.size
 
-loop_obstacles = place_obsticles_and_find_loops(grid, original_visited)
-puts loop_obstacles.size
+loop_count = place_obsticles_and_find_loops(grid, original_visited)
+puts loop_count

@@ -7,13 +7,18 @@ $stdin.readlines.each do |line|
   equations << [result.to_i, values]
 end
 
-class Integer
-  def concat(other)
-    (self.to_s + other.to_s).to_i
+module AoC
+  refine Integer do
+    def concat(other)
+      (self.to_s + other.to_s).to_i
+    end
   end
 end
+using AoC
 
-def find_ops(result, values, ops, partial = nil)
+# Depth-first search for equation rule, branching on each operation
+def find_ops(result, values, ops, partial)
+  return false if partial > result # optimization to prune dead trees
   if values.size == 1
     ops.any? do |op|
       result == partial.send(op, values[0])
@@ -27,10 +32,10 @@ end
 
 total1, total2 = [0, 0]
 equations.each do |result, values|
-  if find_ops(result, values[1..], [:+, :*], values[0])
+  if find_ops(result, values[1..], %i[+ *], values[0])
     total1 += result
     total2 += result
-  elsif find_ops(result, values[1..], [:+, :*, :concat], values[0])
+  elsif find_ops(result, values[1..], %i[+ * concat], values[0])
     total2 += result
   end
 end

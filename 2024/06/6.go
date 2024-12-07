@@ -3,7 +3,6 @@ package main
 import (
 	"bufio"
 	"errors"
-	"fmt"
 	"os"
 )
 
@@ -91,10 +90,7 @@ func (grid *Grid) traverse() (*PositionSet, bool) {
 	visits := map[Visit]bool{}
 	visit, _ := grid.start()
 	var exited bool
-	for visit != nil {
-		if visits[*visit] {
-			break
-		}
+	for visit != nil && !visits[*visit] {
 		visitedPositions[visit.pos] = true
 		visits[*visit] = true
 		visit, exited = grid.step(visit)
@@ -137,6 +133,6 @@ func parseInput() *Grid {
 func main() {
 	grid := parseInput()
 	visitedPositions, _ := grid.traverse()
-	fmt.Println(len(*visitedPositions))
-	fmt.Println(findLoops(grid, visitedPositions))
+	println(len(*visitedPositions))
+	println(findLoops(grid, visitedPositions))
 }

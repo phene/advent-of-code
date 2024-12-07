@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"os"
 	"slices"
 	"strconv"
@@ -59,6 +58,6 @@ func main() {
 		}
 	}
 
-	fmt.Println(total1)
-	fmt.Println(total2)
+	println(total1)
+	println(total2)
 }
