@@ -10,30 +10,18 @@ import (
 
 type Equation struct {
 	result   int
-	operands []Operand
-}
-type Operand int
-
-func (this *Operand) add(other Operand) Operand {
-	return *this + other
-}
-func (this *Operand) mul(other Operand) Operand {
-	return *this * other
-}
-func (this *Operand) concat(other Operand) Operand {
-	newStr := strconv.Itoa(int(*this)) + strconv.Itoa(int(other))
-	res, _ := strconv.Atoi(newStr)
-	return Operand(res)
-}
-func (this *Operand) eq(other int) bool {
-	return int(*this) == other
+	operands []int
 }
 
-var part1Ops = func(a, b Operand) []Operand {
-	return []Operand{a.add(b), a.mul(b)}
+func add(a, b int) int {
+	return a + b
 }
-var part2Ops = func(a, b Operand) []Operand {
-	return append(part1Ops(a, b), a.concat(b))
+func mul(a, b int) int {
+	return a * b
+}
+func concat(a, b int) int {
+	res, _ := strconv.Atoi(strconv.Itoa(a) + strconv.Itoa(b))
+	return res
 }
 
 func parseInput() []Equation {
@@ -43,23 +31,22 @@ func parseInput() []Equation {
 		parts := strings.Split(scanner.Text(), ": ")
 		result, _ := strconv.Atoi(parts[0])
 		values := strings.Split(parts[1], " ")
-		operands := make([]Operand, len(values))
+		operands := make([]int, len(values))
 		for i, v := range values {
 			o, _ := strconv.Atoi(v)
-			operands[i] = Operand(o)
+			operands[i] = o
 		}
 		equations = append(equations, Equation{result, operands})
 	}
 	return equations
 }
 
-func findOperations(equation *Equation, i int, partial Operand, ops func(a, b Operand) []Operand) bool {
+func findOperations(equation *Equation, i int, partial int, ops []func(a, b int) int) bool {
 	if i == len(equation.operands) {
-		return partial.eq(equation.result)
+		return partial == equation.result
 	} else {
-		newPartials := ops(partial, equation.operands[i])
-		for _, p := range newPartials {
-			if findOperations(equation, i+1, p, ops) {
+		for _, op := range ops {
+			if findOperations(equation, i+1, op(partial, equation.operands[i]), ops) {
 				return true
 			}
 		}
@@ -70,6 +57,8 @@ func findOperations(equation *Equation, i int, partial Operand, ops func(a, b Op
 func main() {
 	equations := parseInput()
 	total1, total2 := 0, 0
+	part1Ops := []func(a, b int) int{add, mul}
+	part2Ops := []func(a, b int) int{add, mul, concat}
 
 	for _, equation := range equations {
 		if findOperations(&equation, 1, equation.operands[0], part1Ops) {
