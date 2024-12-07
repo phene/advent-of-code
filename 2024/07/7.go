@@ -42,7 +42,9 @@ func parseInput() []Equation {
 }
 
 func findOperations(equation *Equation, i int, partial int, ops []func(a, b int) int) bool {
-	if i == len(equation.operands) {
+	if partial > equation.result {
+		return false
+	} else if i == len(equation.operands) {
 		return partial == equation.result
 	} else {
 		for _, op := range ops {
