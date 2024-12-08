@@ -13,7 +13,7 @@ end
 def find_antinodes(antennas, x_range, y_range, resonants = (1..1))
   antinodes = Set.new
   antennas.each do |_, locations|
-    locations.permutation(2).each do |(x1, y1), (x2, y2)|
+    locations.permutation(2) do |(x1, y1), (x2, y2)|
       resonants.each do |resonant|
         a1x = x1 + resonant * (x1 - x2)
         a1y = y1 + resonant * (y1 - y2)
