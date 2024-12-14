@@ -4,7 +4,7 @@ require 'matrix'
 V = Vector
 
 #BOUNDS = [11, 7] # example
-BOUNDS = V[101, 103] # actual
+BOUNDS = [101, 103] # actual
 DIRECTIONS = [V[0, -1], V[1, 0], V[0, 1], V[-1, 0]].freeze
 
 def mod(p)
@@ -12,7 +12,7 @@ def mod(p)
 end
 
 def quadrant(p)
-  return 0 if p[0] == BOUNDS[0] / 2 or p[1] == BOUNDS[1]
+  return 0 if p[0] == BOUNDS[0] / 2 or p[1] == BOUNDS[1] / 2
   if p[0] < BOUNDS[0] / 2
     p[1] < BOUNDS[1] / 2 ? 1 : 2
   else
