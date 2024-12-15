@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	//"fmt"
 	"image"
 	"os"
 	"regexp"
@@ -16,8 +15,6 @@ type P struct {
 var BOUNDS = P{image.Point{101, 103}}
 var DIRECTIONS = []image.Point{{0, -1}, {1, 0}, {0, 1}, {-1, 0}}
 
-//var BOUNDS = P{image.Point{11, 7}}
-
 func (p P) Modulo(bounds P) P {
 	x, y := p.X%bounds.X, p.Y%bounds.Y
 	// Go does not give postive modulus for negative numbers
@@ -29,18 +26,14 @@ func (p P) Quadrant() int {
 	if p.X == BOUNDS.X/2 || p.Y == BOUNDS.Y/2 {
 		return 0
 	}
-	if p.X < BOUNDS.X/2 {
-		if p.Y < BOUNDS.Y/2 {
-			return 1
-		} else {
-			return 2
-		}
+	x_lower, y_lower, q := p.X < BOUNDS.X/2, p.Y < BOUNDS.Y/2, 0
+	if !x_lower {
+		q += 2
+	}
+	if y_lower {
+		return q + 1
 	} else {
-		if p.Y < BOUNDS.Y/2 {
-			return 3
-		} else {
-			return 4
-		}
+		return q + 2
 	}
 }
 
@@ -58,6 +51,10 @@ func atoi(s string) int {
 	return i
 }
 
+func create_p(x, y string) P {
+	return P{image.Point{atoi(x), atoi(y)}}
+}
+
 func parseInput() []Robot {
 	scanner := bufio.NewScanner(os.Stdin)
 	re := regexp.MustCompile(`p=(-?\d{1,3}),(-?\d{1,3}) v=(-?\d{1,3}),(-?\d{1,3})`)
@@ -65,21 +62,28 @@ func parseInput() []Robot {
 	for scanner.Scan() {
 		matches := re.FindStringSubmatch(scanner.Text())
 		robot := Robot{
-			P{image.Point{atoi(matches[1]), atoi(matches[2])}},
-			P{image.Point{atoi(matches[3]), atoi(matches[4])}},
+			create_p(matches[1], matches[2]),
+			create_p(matches[3], matches[4]),
 		}
 		robots = append(robots, robot)
 	}
 	return robots
 }
 
+func pointSet(robots []Robot, time int) map[P]bool {
+	points := map[P]bool{}
+	for _, robot := range robots {
+		points[robot.Travel(time)] = true
+	}
+	return points
+}
+
 func quadrantProduct(robots []Robot, time int) int {
 	quadrantSums := map[int]int{}
-	product := 1
 	for _, robot := range robots {
-		q := robot.Travel(time).Quadrant()
-		quadrantSums[q]++
+		quadrantSums[robot.Travel(time).Quadrant()]++
 	}
+	product := 1
 	for q, s := range quadrantSums {
 		if q != 0 {
 			product *= s
@@ -88,6 +92,7 @@ func quadrantProduct(robots []Robot, time int) int {
 	return product
 }
 
+// Do at least a quarter of the points create a contiguous block?
 func hasLargeGroup(points map[P]bool) bool {
 	for point := range points {
 		positions := []P{point}
@@ -118,10 +123,7 @@ func main() {
 	println(quadrantProduct(robots, 100))
 
 	for t := 0; true; t++ {
-		points := map[P]bool{}
-		for _, robot := range robots {
-			points[robot.Travel(t)] = true
-		}
+		points := pointSet(robots, t)
 		// Assumption is that input was constructed by putting on robots on unique
 		// points then stepping in reverse by the target time. Robots being on unique
 		// points is not sufficient to give a unique answer, so finding a large
