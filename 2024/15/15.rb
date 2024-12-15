@@ -103,7 +103,7 @@ def can_move?(grid, p1, p2)
   else # LEFT_BOX, RIGHT_BOX
     d = p2 - p1
     if d == MOVES['<'] or d == MOVES['>'] # Moving horizontally, so no special interactions
-      can_move?(grid, p2 + d)
+      can_move?(grid, p2, p2 + d)
     else
       other_half = get_cell(grid, p2) == LEFT_BOX ? p2 + MOVES['>'] : p2 + MOVES['<']
       can_move?(grid, p2, p2 + d) and can_move?(grid, other_half, other_half + d)
@@ -111,10 +111,13 @@ def can_move?(grid, p1, p2)
   end
 end
 
-def traverse(grid, movements)
+def traverse(grid, movements, draw_grid = false)
   position = start(grid)
   while movement = movements.shift
     position = move(grid, position, position + MOVES[movement])
+    next unless draw_grid
+    draw(grid)
+    sleep 0.05
   end
 end
 
@@ -136,10 +139,21 @@ def transform_grid(grid)
 end
 
 def draw(grid)
+  red = `tput setaf 1`
+  green = `tput setaf 2`
+  blue = `tput setaf 4`
+  blank = `tput sgr0`
+  puts `tput clear`
+  output = ''
   grid.each do |row|
-    puts row.join('')
+    str = row.join('').gsub('.', ' ')
+    str.gsub!('[]', green + '[]' + blank)
+    str.gsub!('O', green + 'O' + blank)
+    str.gsub!('@', blue + '@' + blank)
+    str.gsub!('#', red + '#' + blank)
+    output << str + "\n"
   end
-  puts
+  puts output + "\n"
 end
 
 def copy_grid(grid)
@@ -167,11 +181,9 @@ $stdin.readlines.each_with_index do |line|
 end
 
 part1_grid = copy_grid(grid)
-traverse(part1_grid, movements.dup)
-# draw(part1_grid)
+traverse(part1_grid, movements.dup, false) # Set to true for fun output
 puts boxes_score(part1_grid)
 
 part2_grid = transform_grid(grid)
-traverse(part2_grid, movements.dup)
-# draw(part2_grid)
+traverse(part2_grid, movements.dup, false) # Set to true for fun output
 puts boxes_score(part2_grid)
