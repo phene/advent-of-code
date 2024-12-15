@@ -122,7 +122,11 @@ func main() {
 		for _, robot := range robots {
 			points[robot.Travel(t)] = true
 		}
-		if hasLargeGroup(points) {
+		// Assumption is that input was constructed by putting on robots on unique
+		// points then stepping in reverse by the target time. Robots being on unique
+		// points is not sufficient to give a unique answer, so finding a large
+		// group of them is also required to identify the target time.
+		if len(points) == len(robots) && hasLargeGroup(points) {
 			println(t)
 			break
 		}

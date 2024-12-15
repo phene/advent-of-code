@@ -58,7 +58,11 @@ def part2(robots)
     points = robots.map do |p0, v|
       mod(p0 + v * t)
     end.to_set
-    if large_group?(points)
+    # Assumption is that input was constructed by putting on robots on unique
+    # points then stepping in reverse by the target time. Robots being on unique
+    # points is not sufficient to give a unique answer, so finding a large
+    # group of them is also required to identify the target time.
+    if points.size == robots.size && large_group?(points)
       draw(points)
       return t
     end
