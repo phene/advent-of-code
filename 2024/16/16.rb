@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'pairing_heap'
 require 'matrix'
 V = Vector
 
