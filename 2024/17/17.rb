@@ -19,16 +19,10 @@ def operate(ip, opcode, operand, registers, output)
     output << combo(operand, registers) % 8
   when 6 # bdv
     registers[1] = registers[0] >> combo(operand, registers)
-  when 7 # cdv
+  else # when 7 # cdv
     registers[2] = registers[0] >> combo(operand, registers)
-  else
-    raise "Invalid opcode #{opcode}"
   end
   ip + 2
-end
-
-def log(msg)
-  puts msg
 end
 
 def run_program(program, registers)
@@ -36,16 +30,33 @@ def run_program(program, registers)
   output = []
   while program[ip]
     opcode, operand = program[ip], program[ip+1]
-    log "#{opcode_name(opcode)} #{operand} #{registers.map{ _1.to_s(2).ljust(30) }.join(' ')}"
     ip = operate(ip, opcode, operand, registers, output)
   end
-  log registers.map{ _1.to_s(2).ljust(30) }
   output
 end
 
-registers = (1..3).map { readregister $stdin.readline }
-$stdin.readline
+def run_a(program, registers, a)
+  reg = registers.dup
+  reg[0] = a
+  run_program(program, reg)
+end
 
+# Search by chunks of octets, where leading octets correspond to reverse order of outputs
+def search_a(program, registers)
+  queue = (0..7).to_a
+  while queue.any?
+    possible_a = queue.shift
+    return possible_a if run_a(program, registers, possible_a) == program
+    (0..7).each do |i|
+      a = (possible_a << 3) + i
+      queue << a if run_a(program, registers, a) == program[-((a.bit_length/3)+1)..]
+    end
+  end
+end
+
+registers = (1..3).map { readregister $stdin.readline }
+$stdin.readline # Burn empty line
 program = $stdin.readline.split(': ').last.split(',').map(&:to_i)
 
-puts run_program(program, registers.dup).join(',')
+puts run_program(program, registers.dup).map(&:to_s).join(',')
+puts search_a(program, registers)
