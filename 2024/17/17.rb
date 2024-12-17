@@ -42,11 +42,11 @@ def run_a(program, registers, a)
 end
 
 # Search by chunks of octets, where leading octets correspond to reverse order of outputs
-def search_a(program, registers)
+def search_quine(program, registers)
   queue = (0..7).to_a
   while queue.any?
     possible_a = queue.shift
-    return possible_a if run_a(program, registers, possible_a) == program
+    return possible_a if possible_a.bit_length/3 + 1 == program.size
     (0..7).each do |i|
       a = (possible_a << 3) + i
       queue << a if run_a(program, registers, a) == program[-((a.bit_length/3)+1)..]
@@ -59,4 +59,4 @@ $stdin.readline # Burn empty line
 program = $stdin.readline.split(': ').last.split(',').map(&:to_i)
 
 puts run_program(program, registers.dup).map(&:to_s).join(',')
-puts search_a(program, registers)
+puts search_quine(program, registers)
