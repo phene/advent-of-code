@@ -3,34 +3,34 @@
 def readregister(line) = line.split(': ').last.to_i
 def combo(operand, registers) = operand > 3 ? registers[operand-4] : operand
 def opcode_name(code) = %w[adv bxl bst jnq bxc out bdv cdv][code]
-def operate(ip, opcode, operand, registers, output)
-  case opcode
-  when 0 # adv
-    registers[0] = registers[0] >> combo(operand, registers)
-  when 1 # bxl
-    registers[1] ^= operand
-  when 2 # bst
-    registers[1] = combo(operand, registers) % 8
-  when 3 # jnz
-    return operand if registers[0] != 0
-  when 4 # bxc
-    registers[1] ^= registers[2]
-  when 5 # out
-    output << combo(operand, registers) % 8
-  when 6 # bdv
-    registers[1] = registers[0] >> combo(operand, registers)
-  else # when 7 # cdv
-    registers[2] = registers[0] >> combo(operand, registers)
-  end
-  ip + 2
-end
 
 def run_program(program, registers)
   ip = 0
   output = []
   while program[ip]
     opcode, operand = program[ip], program[ip+1]
-    ip = operate(ip, opcode, operand, registers, output)
+    case opcode
+    when 0 # adv
+      registers[0] = registers[0] >> combo(operand, registers)
+    when 1 # bxl
+      registers[1] ^= operand
+    when 2 # bst
+      registers[1] = combo(operand, registers) % 8
+    when 3 # jnz
+      if registers[0] != 0
+        ip = operand
+        next
+      end
+    when 4 # bxc
+      registers[1] ^= registers[2]
+    when 5 # out
+      output << combo(operand, registers) % 8
+    when 6 # bdv
+      registers[1] = registers[0] >> combo(operand, registers)
+    else # when 7 # cdv
+      registers[2] = registers[0] >> combo(operand, registers)
+    end
+    ip += 2
   end
   output
 end
