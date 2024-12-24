@@ -1,0 +1,1202 @@
+digraph 24 {
+  x00[shape=square,style=filled,fillcolor=deepskyblue]
+  x01[shape=square,style=filled,fillcolor=deepskyblue]
+  x02[shape=square,style=filled,fillcolor=deepskyblue]
+  x03[shape=square,style=filled,fillcolor=deepskyblue]
+  x04[shape=square,style=filled,fillcolor=deepskyblue]
+  x05[shape=square,style=filled,fillcolor=deepskyblue]
+  x06[shape=square,style=filled,fillcolor=deepskyblue]
+  x07[shape=square,style=filled,fillcolor=deepskyblue]
+  x08[shape=square,style=filled,fillcolor=deepskyblue]
+  x09[shape=square,style=filled,fillcolor=deepskyblue]
+  x10[shape=square,style=filled,fillcolor=deepskyblue]
+  x11[shape=square,style=filled,fillcolor=deepskyblue]
+  x12[shape=square,style=filled,fillcolor=deepskyblue]
+  x13[shape=square,style=filled,fillcolor=deepskyblue]
+  x14[shape=square,style=filled,fillcolor=deepskyblue]
+  x15[shape=square,style=filled,fillcolor=deepskyblue]
+  x16[shape=square,style=filled,fillcolor=deepskyblue]
+  x17[shape=square,style=filled,fillcolor=deepskyblue]
+  x18[shape=square,style=filled,fillcolor=deepskyblue]
+  x19[shape=square,style=filled,fillcolor=deepskyblue]
+  x20[shape=square,style=filled,fillcolor=deepskyblue]
+  x21[shape=square,style=filled,fillcolor=deepskyblue]
+  x22[shape=square,style=filled,fillcolor=deepskyblue]
+  x23[shape=square,style=filled,fillcolor=deepskyblue]
+  x24[shape=square,style=filled,fillcolor=deepskyblue]
+  x25[shape=square,style=filled,fillcolor=deepskyblue]
+  x26[shape=square,style=filled,fillcolor=deepskyblue]
+  x27[shape=square,style=filled,fillcolor=deepskyblue]
+  x28[shape=square,style=filled,fillcolor=deepskyblue]
+  x29[shape=square,style=filled,fillcolor=deepskyblue]
+  x30[shape=square,style=filled,fillcolor=deepskyblue]
+  x31[shape=square,style=filled,fillcolor=deepskyblue]
+  x32[shape=square,style=filled,fillcolor=deepskyblue]
+  x33[shape=square,style=filled,fillcolor=deepskyblue]
+  x34[shape=square,style=filled,fillcolor=deepskyblue]
+  x35[shape=square,style=filled,fillcolor=deepskyblue]
+  x36[shape=square,style=filled,fillcolor=deepskyblue]
+  x37[shape=square,style=filled,fillcolor=deepskyblue]
+  x38[shape=square,style=filled,fillcolor=deepskyblue]
+  x39[shape=square,style=filled,fillcolor=deepskyblue]
+  x40[shape=square,style=filled,fillcolor=deepskyblue]
+  x41[shape=square,style=filled,fillcolor=deepskyblue]
+  x42[shape=square,style=filled,fillcolor=deepskyblue]
+  x43[shape=square,style=filled,fillcolor=deepskyblue]
+  x44[shape=square,style=filled,fillcolor=deepskyblue]
+  y00[shape=square,style=filled,fillcolor=dodgerblue]
+  y01[shape=square,style=filled,fillcolor=dodgerblue]
+  y02[shape=square,style=filled,fillcolor=dodgerblue]
+  y03[shape=square,style=filled,fillcolor=dodgerblue]
+  y04[shape=square,style=filled,fillcolor=dodgerblue]
+  y05[shape=square,style=filled,fillcolor=dodgerblue]
+  y06[shape=square,style=filled,fillcolor=dodgerblue]
+  y07[shape=square,style=filled,fillcolor=dodgerblue]
+  y08[shape=square,style=filled,fillcolor=dodgerblue]
+  y09[shape=square,style=filled,fillcolor=dodgerblue]
+  y10[shape=square,style=filled,fillcolor=dodgerblue]
+  y11[shape=square,style=filled,fillcolor=dodgerblue]
+  y12[shape=square,style=filled,fillcolor=dodgerblue]
+  y13[shape=square,style=filled,fillcolor=dodgerblue]
+  y14[shape=square,style=filled,fillcolor=dodgerblue]
+  y15[shape=square,style=filled,fillcolor=dodgerblue]
+  y16[shape=square,style=filled,fillcolor=dodgerblue]
+  y17[shape=square,style=filled,fillcolor=dodgerblue]
+  y18[shape=square,style=filled,fillcolor=dodgerblue]
+  y19[shape=square,style=filled,fillcolor=dodgerblue]
+  y20[shape=square,style=filled,fillcolor=dodgerblue]
+  y21[shape=square,style=filled,fillcolor=dodgerblue]
+  y22[shape=square,style=filled,fillcolor=dodgerblue]
+  y23[shape=square,style=filled,fillcolor=dodgerblue]
+  y24[shape=square,style=filled,fillcolor=dodgerblue]
+  y25[shape=square,style=filled,fillcolor=dodgerblue]
+  y26[shape=square,style=filled,fillcolor=dodgerblue]
+  y27[shape=square,style=filled,fillcolor=dodgerblue]
+  y28[shape=square,style=filled,fillcolor=dodgerblue]
+  y29[shape=square,style=filled,fillcolor=dodgerblue]
+  y30[shape=square,style=filled,fillcolor=dodgerblue]
+  y31[shape=square,style=filled,fillcolor=dodgerblue]
+  y32[shape=square,style=filled,fillcolor=dodgerblue]
+  y33[shape=square,style=filled,fillcolor=dodgerblue]
+  y34[shape=square,style=filled,fillcolor=dodgerblue]
+  y35[shape=square,style=filled,fillcolor=dodgerblue]
+  y36[shape=square,style=filled,fillcolor=dodgerblue]
+  y37[shape=square,style=filled,fillcolor=dodgerblue]
+  y38[shape=square,style=filled,fillcolor=dodgerblue]
+  y39[shape=square,style=filled,fillcolor=dodgerblue]
+  y40[shape=square,style=filled,fillcolor=dodgerblue]
+  y41[shape=square,style=filled,fillcolor=dodgerblue]
+  y42[shape=square,style=filled,fillcolor=dodgerblue]
+  y43[shape=square,style=filled,fillcolor=dodgerblue]
+  y44[shape=square,style=filled,fillcolor=dodgerblue]
+  hgv[shape=square,style=filled,fillcolor=lightgrey]
+  dhb[shape=square,style=filled,fillcolor=lightgrey]
+  jqs[shape=square,style=filled,fillcolor=lightgrey]
+  cpr[shape=square,style=filled,fillcolor=lightgrey]
+  tpk[shape=square,style=filled,fillcolor=lightgrey]
+  jrb[shape=square,style=filled,fillcolor=lightgrey]
+  bcq[shape=square,style=filled,fillcolor=lightgrey]
+  nbf[shape=square,style=filled,fillcolor=lightgrey]
+  trd[shape=square,style=filled,fillcolor=lightgrey]
+  vsk[shape=square,style=filled,fillcolor=lightgrey]
+  rjk[shape=square,style=filled,fillcolor=lightgrey]
+  vfq[shape=square,style=filled,fillcolor=lightgrey]
+  tbs[shape=square,style=filled,fillcolor=lightgrey]
+  ktt[shape=square,style=filled,fillcolor=lightgrey]
+  dnd[shape=square,style=filled,fillcolor=lightgrey]
+  dps[shape=square,style=filled,fillcolor=lightgrey]
+  dgh[shape=square,style=filled,fillcolor=lightgrey]
+  rnc[shape=square,style=filled,fillcolor=lightgrey]
+  jpc[shape=square,style=filled,fillcolor=lightgrey]
+  ntm[shape=square,style=filled,fillcolor=lightgrey]
+  spf[shape=square,style=filled,fillcolor=lightgrey]
+  scj[shape=square,style=filled,fillcolor=lightgrey]
+  hhp[shape=square,style=filled,fillcolor=lightgrey]
+  pgc[shape=square,style=filled,fillcolor=lightgrey]
+  njj[shape=square,style=filled,fillcolor=lightgrey]
+  trw[shape=square,style=filled,fillcolor=lightgrey]
+  smk[shape=square,style=filled,fillcolor=lightgrey]
+  gvt[shape=square,style=filled,fillcolor=lightgrey]
+  tmw[shape=square,style=filled,fillcolor=lightgrey]
+  jqc[shape=square,style=filled,fillcolor=lightgrey]
+  jrr[shape=square,style=filled,fillcolor=lightgrey]
+  cvb[shape=square,style=filled,fillcolor=lightgrey]
+  rpj[shape=square,style=filled,fillcolor=lightgrey]
+  csm[shape=square,style=filled,fillcolor=lightgrey]
+  sch[shape=square,style=filled,fillcolor=lightgrey]
+  z33[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z17[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  smd[shape=square,style=filled,fillcolor=lightgrey]
+  kfb[shape=square,style=filled,fillcolor=lightgrey]
+  z25[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  frt[shape=square,style=filled,fillcolor=lightgrey]
+  wgw[shape=square,style=filled,fillcolor=lightgrey]
+  hww[shape=square,style=filled,fillcolor=lightgrey]
+  djr[shape=square,style=filled,fillcolor=lightgrey]
+  qcp[shape=square,style=filled,fillcolor=lightgrey]
+  z23[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  cpq[shape=square,style=filled,fillcolor=lightgrey]
+  z10[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z20[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z19[shape=square,style=filled,fillcolor=red]
+  gqf[shape=square,style=filled,fillcolor=lightgrey]
+  z34[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  mfp[shape=square,style=filled,fillcolor=lightgrey]
+  nbp[shape=square,style=filled,fillcolor=lightgrey]
+  qsg[shape=square,style=filled,fillcolor=lightgrey]
+  wpd[shape=square,style=filled,fillcolor=lightgrey]
+  jqg[shape=square,style=filled,fillcolor=lightgrey]
+  fjd[shape=square,style=filled,fillcolor=lightgrey]
+  gkk[shape=square,style=filled,fillcolor=lightgrey]
+  bpg[shape=square,style=filled,fillcolor=lightgrey]
+  tmk[shape=square,style=filled,fillcolor=lightgrey]
+  nqq[shape=square,style=filled,fillcolor=lightgrey]
+  fnc[shape=square,style=filled,fillcolor=lightgrey]
+  jsf[shape=square,style=filled,fillcolor=lightgrey]
+  bcf[shape=square,style=filled,fillcolor=lightgrey]
+  z06[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  wnv[shape=square,style=filled,fillcolor=lightgrey]
+  z00[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  ptm[shape=square,style=filled,fillcolor=lightgrey]
+  mwj[shape=square,style=filled,fillcolor=lightgrey]
+  z36[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  cwc[shape=square,style=filled,fillcolor=lightgrey]
+  z28[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  vsb[shape=square,style=filled,fillcolor=lightgrey]
+  gbk[shape=square,style=filled,fillcolor=lightgrey]
+  jkm[shape=square,style=filled,fillcolor=lightgrey]
+  wvw[shape=square,style=filled,fillcolor=lightgrey]
+  fkg[shape=square,style=filled,fillcolor=lightgrey]
+  dsd[shape=square,style=filled,fillcolor=red]
+  dgv[shape=square,style=filled,fillcolor=lightgrey]
+  z16[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z07[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  djg[shape=square,style=filled,fillcolor=red]
+  hjs[shape=square,style=filled,fillcolor=lightgrey]
+  qvw[shape=square,style=filled,fillcolor=lightgrey]
+  cpv[shape=square,style=filled,fillcolor=lightgrey]
+  kwm[shape=square,style=filled,fillcolor=lightgrey]
+  jmr[shape=square,style=filled,fillcolor=lightgrey]
+  fqp[shape=square,style=filled,fillcolor=lightgrey]
+  z43[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  hjm[shape=square,style=filled,fillcolor=red]
+  pgs[shape=square,style=filled,fillcolor=lightgrey]
+  jsb[shape=square,style=filled,fillcolor=lightgrey]
+  tkb[shape=square,style=filled,fillcolor=lightgrey]
+  gpv[shape=square,style=filled,fillcolor=lightgrey]
+  kvp[shape=square,style=filled,fillcolor=lightgrey]
+  nqd[shape=square,style=filled,fillcolor=lightgrey]
+  qqp[shape=square,style=filled,fillcolor=lightgrey]
+  ffg[shape=square,style=filled,fillcolor=lightgrey]
+  z03[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  rdt[shape=square,style=filled,fillcolor=lightgrey]
+  dkq[shape=square,style=filled,fillcolor=lightgrey]
+  rmg[shape=square,style=filled,fillcolor=lightgrey]
+  z11[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  njf[shape=square,style=filled,fillcolor=lightgrey]
+  pmb[shape=square,style=filled,fillcolor=lightgrey]
+  gtk[shape=square,style=filled,fillcolor=lightgrey]
+  ktv[shape=square,style=filled,fillcolor=lightgrey]
+  z14[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  njd[shape=square,style=filled,fillcolor=lightgrey]
+  z18[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  tpj[shape=square,style=filled,fillcolor=lightgrey]
+  mpf[shape=square,style=filled,fillcolor=lightgrey]
+  rpc[shape=square,style=filled,fillcolor=lightgrey]
+  fjb[shape=square,style=filled,fillcolor=lightgrey]
+  qjc[shape=square,style=filled,fillcolor=lightgrey]
+  z27[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  kgm[shape=square,style=filled,fillcolor=lightgrey]
+  psb[shape=square,style=filled,fillcolor=lightgrey]
+  wjh[shape=square,style=filled,fillcolor=lightgrey]
+  sqr[shape=square,style=filled,fillcolor=lightgrey]
+  z38[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  fbf[shape=square,style=filled,fillcolor=lightgrey]
+  z45[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z12[shape=square,style=filled,fillcolor=red]
+  rkn[shape=square,style=filled,fillcolor=lightgrey]
+  z30[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  cgt[shape=square,style=filled,fillcolor=lightgrey]
+  fbk[shape=square,style=filled,fillcolor=lightgrey]
+  kdm[shape=square,style=filled,fillcolor=lightgrey]
+  spj[shape=square,style=filled,fillcolor=lightgrey]
+  sbg[shape=square,style=filled,fillcolor=red]
+  sqt[shape=square,style=filled,fillcolor=lightgrey]
+  rvb[shape=square,style=filled,fillcolor=lightgrey]
+  rkw[shape=square,style=filled,fillcolor=lightgrey]
+  z08[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  wqw[shape=square,style=filled,fillcolor=lightgrey]
+  kvh[shape=square,style=filled,fillcolor=lightgrey]
+  mcq[shape=square,style=filled,fillcolor=red]
+  hqv[shape=square,style=filled,fillcolor=lightgrey]
+  dcc[shape=square,style=filled,fillcolor=lightgrey]
+  pks[shape=square,style=filled,fillcolor=lightgrey]
+  z22[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  nrd[shape=square,style=filled,fillcolor=lightgrey]
+  vpj[shape=square,style=filled,fillcolor=lightgrey]
+  pvb[shape=square,style=filled,fillcolor=lightgrey]
+  jtp[shape=square,style=filled,fillcolor=lightgrey]
+  z35[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z29[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  dts[shape=square,style=filled,fillcolor=lightgrey]
+  mtm[shape=square,style=filled,fillcolor=lightgrey]
+  mdk[shape=square,style=filled,fillcolor=lightgrey]
+  gwm[shape=square,style=filled,fillcolor=lightgrey]
+  tmc[shape=square,style=filled,fillcolor=lightgrey]
+  ktc[shape=square,style=filled,fillcolor=lightgrey]
+  z04[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  mks[shape=square,style=filled,fillcolor=lightgrey]
+  z32[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  kbs[shape=square,style=filled,fillcolor=lightgrey]
+  qns[shape=square,style=filled,fillcolor=lightgrey]
+  jwg[shape=square,style=filled,fillcolor=lightgrey]
+  fnq[shape=square,style=filled,fillcolor=lightgrey]
+  fkc[shape=square,style=filled,fillcolor=lightgrey]
+  wrg[shape=square,style=filled,fillcolor=lightgrey]
+  pft[shape=square,style=filled,fillcolor=lightgrey]
+  rwk[shape=square,style=filled,fillcolor=lightgrey]
+  z42[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  qss[shape=square,style=filled,fillcolor=lightgrey]
+  npg[shape=square,style=filled,fillcolor=lightgrey]
+  z39[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  wcc[shape=square,style=filled,fillcolor=lightgrey]
+  qmj[shape=square,style=filled,fillcolor=lightgrey]
+  tnq[shape=square,style=filled,fillcolor=lightgrey]
+  wkn[shape=square,style=filled,fillcolor=lightgrey]
+  z44[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  dmn[shape=square,style=filled,fillcolor=lightgrey]
+  z01[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z41[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z21[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  kbm[shape=square,style=filled,fillcolor=lightgrey]
+  mwp[shape=square,style=filled,fillcolor=lightgrey]
+  pcv[shape=square,style=filled,fillcolor=lightgrey]
+  mrf[shape=square,style=filled,fillcolor=lightgrey]
+  ssq[shape=square,style=filled,fillcolor=lightgrey]
+  fsc[shape=square,style=filled,fillcolor=lightgrey]
+  jjc[shape=square,style=filled,fillcolor=lightgrey]
+  z02[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  btd[shape=square,style=filled,fillcolor=lightgrey]
+  z15[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  ckt[shape=square,style=filled,fillcolor=lightgrey]
+  vwj[shape=square,style=filled,fillcolor=lightgrey]
+  nqk[shape=square,style=filled,fillcolor=lightgrey]
+  kgp[shape=square,style=filled,fillcolor=lightgrey]
+  bnh[shape=square,style=filled,fillcolor=lightgrey]
+  rqp[shape=square,style=filled,fillcolor=lightgrey]
+  z13[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  whm[shape=square,style=filled,fillcolor=lightgrey]
+  z31[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  ftg[shape=square,style=filled,fillcolor=lightgrey]
+  mhv[shape=square,style=filled,fillcolor=lightgrey]
+  z26[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  qdg[shape=square,style=filled,fillcolor=lightgrey]
+  jfn[shape=square,style=filled,fillcolor=lightgrey]
+  dhr[shape=square,style=filled,fillcolor=lightgrey]
+  z05[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  ntj[shape=square,style=filled,fillcolor=lightgrey]
+  bsr[shape=square,style=filled,fillcolor=lightgrey]
+  z40[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  tjm[shape=square,style=filled,fillcolor=lightgrey]
+  mgr[shape=square,style=filled,fillcolor=lightgrey]
+  vsc[shape=square,style=filled,fillcolor=lightgrey]
+  kmb[shape=square,style=filled,fillcolor=lightgrey]
+  hcd[shape=square,style=filled,fillcolor=lightgrey]
+  z09[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  z37[shape=square,style=filled,fillcolor=red]
+  bfn[shape=square,style=filled,fillcolor=lightgrey]
+  jjp[shape=square,style=filled,fillcolor=lightgrey]
+  z24[shape=square,style=filled,fillcolor=purple,fontcolor=white]
+  bgs[shape=square,style=filled,fillcolor=lightgrey]
+  hhm[shape=square,style=filled,fillcolor=lightgrey]
+  fhf[shape=square,style=filled,fillcolor=lightgrey]
+  stm[shape=square,style=filled,fillcolor=lightgrey]
+  x21_XOR_y21[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x21_XOR_y21 -> hgv
+  x21 -> x21_XOR_y21
+  y21 -> x21_XOR_y21
+  cpr_OR_tmw[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  cpr_OR_tmw -> dhb
+  cpr -> cpr_OR_tmw
+  tmw -> cpr_OR_tmw
+  cpq_AND_tkb[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  cpq_AND_tkb -> jqs
+  cpq -> cpq_AND_tkb
+  tkb -> cpq_AND_tkb
+  nbp_AND_tnq[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  nbp_AND_tnq -> cpr
+  nbp -> nbp_AND_tnq
+  tnq -> nbp_AND_tnq
+  scj_AND_btd[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  scj_AND_btd -> tpk
+  scj -> scj_AND_btd
+  btd -> scj_AND_btd
+  ffg_OR_tpj[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  ffg_OR_tpj -> jrb
+  ffg -> ffg_OR_tpj
+  tpj -> ffg_OR_tpj
+  pft_AND_qcp[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  pft_AND_qcp -> bcq
+  pft -> pft_AND_qcp
+  qcp -> pft_AND_qcp
+  djg_OR_djr[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  djg_OR_djr -> nbf
+  djg -> djg_OR_djr
+  djr -> djg_OR_djr
+  qdg_AND_fqp[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  qdg_AND_fqp -> trd
+  qdg -> qdg_AND_fqp
+  fqp -> qdg_AND_fqp
+  jkm_AND_wrg[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jkm_AND_wrg -> vsk
+  jkm -> jkm_AND_wrg
+  wrg -> jkm_AND_wrg
+  x39_AND_y39[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x39_AND_y39 -> rjk
+  x39 -> x39_AND_y39
+  y39 -> x39_AND_y39
+  frt_AND_pgs[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  frt_AND_pgs -> vfq
+  frt -> frt_AND_pgs
+  pgs -> frt_AND_pgs
+  nqk_OR_mdk[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  nqk_OR_mdk -> tbs
+  nqk -> nqk_OR_mdk
+  mdk -> nqk_OR_mdk
+  y00_AND_x00[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y00_AND_x00 -> ktt
+  y00 -> y00_AND_x00
+  x00 -> y00_AND_x00
+  pks_OR_ptm[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  pks_OR_ptm -> dnd
+  pks -> pks_OR_ptm
+  ptm -> pks_OR_ptm
+  ntj_AND_fbk[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  ntj_AND_fbk -> dps
+  ntj -> ntj_AND_fbk
+  fbk -> ntj_AND_fbk
+  y44_AND_x44[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y44_AND_x44 -> dgh
+  y44 -> y44_AND_x44
+  x44 -> y44_AND_x44
+  wgw_OR_qqp[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  wgw_OR_qqp -> rnc
+  wgw -> wgw_OR_qqp
+  qqp -> wgw_OR_qqp
+  y33_AND_x33[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y33_AND_x33 -> jpc
+  y33 -> y33_AND_x33
+  x33 -> y33_AND_x33
+  x13_AND_y13[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x13_AND_y13 -> ntm
+  x13 -> x13_AND_y13
+  y13 -> x13_AND_y13
+  y38_XOR_x38[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y38_XOR_x38 -> spf
+  y38 -> y38_XOR_x38
+  x38 -> y38_XOR_x38
+  fnq_OR_pcv[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  fnq_OR_pcv -> scj
+  fnq -> fnq_OR_pcv
+  pcv -> fnq_OR_pcv
+  hjs_OR_vwj[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  hjs_OR_vwj -> hhp
+  hjs -> hjs_OR_vwj
+  vwj -> hjs_OR_vwj
+  y38_AND_x38[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y38_AND_x38 -> pgc
+  y38 -> y38_AND_x38
+  x38 -> y38_AND_x38
+  ftg_AND_mhv[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  ftg_AND_mhv -> njj
+  ftg -> ftg_AND_mhv
+  mhv -> ftg_AND_mhv
+  wvw_OR_rdt[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  wvw_OR_rdt -> trw
+  wvw -> wvw_OR_rdt
+  rdt -> wvw_OR_rdt
+  gkk_AND_nrd[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  gkk_AND_nrd -> smk
+  gkk -> gkk_AND_nrd
+  nrd -> gkk_AND_nrd
+  jjc_AND_mpf[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jjc_AND_mpf -> gvt
+  jjc -> jjc_AND_mpf
+  mpf -> jjc_AND_mpf
+  x14_AND_y14[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x14_AND_y14 -> tmw
+  x14 -> x14_AND_y14
+  y14 -> x14_AND_y14
+  mwp_OR_vsb[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  mwp_OR_vsb -> jqc
+  mwp -> mwp_OR_vsb
+  vsb -> mwp_OR_vsb
+  mks_OR_jqs[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  mks_OR_jqs -> jrr
+  mks -> mks_OR_jqs
+  jqs -> mks_OR_jqs
+  y40_XOR_x40[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y40_XOR_x40 -> cvb
+  y40 -> y40_XOR_x40
+  x40 -> y40_XOR_x40
+  hjm_AND_jrr[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  hjm_AND_jrr -> rpj
+  hjm -> hjm_AND_jrr
+  jrr -> hjm_AND_jrr
+  x04_AND_y04[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x04_AND_y04 -> csm
+  x04 -> x04_AND_y04
+  y04 -> x04_AND_y04
+  kdm_AND_cgt[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  kdm_AND_cgt -> sch
+  kdm -> kdm_AND_cgt
+  cgt -> kdm_AND_cgt
+  jkm_XOR_wrg[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  jkm_XOR_wrg -> z33
+  jkm -> jkm_XOR_wrg
+  wrg -> jkm_XOR_wrg
+  wjh_XOR_cpv[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  wjh_XOR_cpv -> z17
+  wjh -> wjh_XOR_cpv
+  cpv -> wjh_XOR_cpv
+  bfn_OR_gwm[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  bfn_OR_gwm -> smd
+  bfn -> bfn_OR_gwm
+  gwm -> bfn_OR_gwm
+  x06_AND_y06[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x06_AND_y06 -> kfb
+  x06 -> x06_AND_y06
+  y06 -> x06_AND_y06
+  sqr_XOR_wpd[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  sqr_XOR_wpd -> z25
+  sqr -> sqr_XOR_wpd
+  wpd -> sqr_XOR_wpd
+  dkq_OR_jsf[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  dkq_OR_jsf -> frt
+  dkq -> dkq_OR_jsf
+  jsf -> dkq_OR_jsf
+  x40_AND_y40[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x40_AND_y40 -> wgw
+  x40 -> x40_AND_y40
+  y40 -> x40_AND_y40
+  sqt_OR_wnv[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  sqt_OR_wnv -> hww
+  sqt -> sqt_OR_wnv
+  wnv -> sqt_OR_wnv
+  y12_AND_x12[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y12_AND_x12 -> djr
+  y12 -> y12_AND_x12
+  x12 -> y12_AND_x12
+  y18_XOR_x18[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y18_XOR_x18 -> qcp
+  y18 -> y18_XOR_x18
+  x18 -> y18_XOR_x18
+  cpq_XOR_tkb[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  cpq_XOR_tkb -> z23
+  cpq -> cpq_XOR_tkb
+  tkb -> cpq_XOR_tkb
+  bsr_OR_njd[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  bsr_OR_njd -> cpq
+  bsr -> bsr_OR_njd
+  njd -> bsr_OR_njd
+  rqp_XOR_hcd[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  rqp_XOR_hcd -> z10
+  rqp -> rqp_XOR_hcd
+  hcd -> rqp_XOR_hcd
+  ckt_XOR_jwg[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  ckt_XOR_jwg -> z20
+  ckt -> ckt_XOR_jwg
+  jwg -> ckt_XOR_jwg
+  x19_AND_y19[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x19_AND_y19 -> z19
+  x19 -> x19_AND_y19
+  y19 -> x19_AND_y19
+  y37_AND_x37[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y37_AND_x37 -> gqf
+  y37 -> y37_AND_x37
+  x37 -> y37_AND_x37
+  hqv_XOR_bcf[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  hqv_XOR_bcf -> z34
+  hqv -> hqv_XOR_bcf
+  bcf -> hqv_XOR_bcf
+  x41_XOR_y41[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x41_XOR_y41 -> mfp
+  x41 -> x41_XOR_y41
+  y41 -> x41_XOR_y41
+  x14_XOR_y14[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x14_XOR_y14 -> nbp
+  x14 -> x14_XOR_y14
+  y14 -> x14_XOR_y14
+  x42_XOR_y42[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x42_XOR_y42 -> qsg
+  x42 -> x42_XOR_y42
+  y42 -> x42_XOR_y42
+  y25_XOR_x25[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y25_XOR_x25 -> wpd
+  y25 -> y25_XOR_x25
+  x25 -> y25_XOR_x25
+  x27_AND_y27[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x27_AND_y27 -> jqg
+  x27 -> x27_AND_y27
+  y27 -> x27_AND_y27
+  y05_AND_x05[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y05_AND_x05 -> fjd
+  y05 -> y05_AND_x05
+  x05 -> y05_AND_x05
+  y28_XOR_x28[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y28_XOR_x28 -> gkk
+  y28 -> y28_XOR_x28
+  x28 -> y28_XOR_x28
+  x17_AND_y17[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x17_AND_y17 -> bpg
+  x17 -> x17_AND_y17
+  y17 -> x17_AND_y17
+  y26_XOR_x26[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y26_XOR_x26 -> tmk
+  y26 -> y26_XOR_x26
+  x26 -> y26_XOR_x26
+  bgs_OR_rpc[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  bgs_OR_rpc -> nqq
+  bgs -> bgs_OR_rpc
+  rpc -> bgs_OR_rpc
+  x13_XOR_y13[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x13_XOR_y13 -> fnc
+  x13 -> x13_XOR_y13
+  y13 -> x13_XOR_y13
+  x31_AND_y31[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x31_AND_y31 -> jsf
+  x31 -> x31_AND_y31
+  y31 -> x31_AND_y31
+  y34_XOR_x34[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y34_XOR_x34 -> bcf
+  y34 -> y34_XOR_x34
+  x34 -> y34_XOR_x34
+  ftg_XOR_mhv[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  ftg_XOR_mhv -> z06
+  ftg -> ftg_XOR_mhv
+  mhv -> ftg_XOR_mhv
+  y10_AND_x10[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y10_AND_x10 -> wnv
+  y10 -> y10_AND_x10
+  x10 -> y10_AND_x10
+  x00_XOR_y00[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x00_XOR_y00 -> z00
+  x00 -> x00_XOR_y00
+  y00 -> x00_XOR_y00
+  y15_AND_x15[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y15_AND_x15 -> ptm
+  y15 -> y15_AND_x15
+  x15 -> y15_AND_x15
+  fnc_AND_nbf[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  fnc_AND_nbf -> mwj
+  fnc -> fnc_AND_nbf
+  nbf -> fnc_AND_nbf
+  qmj_XOR_jqc[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  qmj_XOR_jqc -> z36
+  qmj -> qmj_XOR_jqc
+  jqc -> qmj_XOR_jqc
+  bcf_AND_hqv[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  bcf_AND_hqv -> cwc
+  bcf -> bcf_AND_hqv
+  hqv -> bcf_AND_hqv
+  gkk_XOR_nrd[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  gkk_XOR_nrd -> z28
+  gkk -> gkk_XOR_nrd
+  nrd -> gkk_XOR_nrd
+  kbm_AND_dgv[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  kbm_AND_dgv -> vsb
+  kbm -> kbm_AND_dgv
+  dgv -> kbm_AND_dgv
+  y34_AND_x34[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y34_AND_x34 -> gbk
+  y34 -> y34_AND_x34
+  x34 -> y34_AND_x34
+  y33_XOR_x33[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y33_XOR_x33 -> jkm
+  y33 -> y33_XOR_x33
+  x33 -> y33_XOR_x33
+  y08_AND_x08[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y08_AND_x08 -> wvw
+  y08 -> y08_AND_x08
+  x08 -> y08_AND_x08
+  y39_XOR_x39[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y39_XOR_x39 -> fkg
+  y39 -> y39_XOR_x39
+  x39 -> y39_XOR_x39
+  hhp_XOR_tjm[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  hhp_XOR_tjm -> dsd
+  hhp -> hhp_XOR_tjm
+  tjm -> hhp_XOR_tjm
+  cwc_OR_gbk[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  cwc_OR_gbk -> dgv
+  cwc -> cwc_OR_gbk
+  gbk -> cwc_OR_gbk
+  dnd_XOR_nqd[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  dnd_XOR_nqd -> z16
+  dnd -> dnd_XOR_nqd
+  nqd -> dnd_XOR_nqd
+  dts_XOR_gpv[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  dts_XOR_gpv -> z07
+  dts -> dts_XOR_gpv
+  gpv -> dts_XOR_gpv
+  njf_XOR_jsb[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  njf_XOR_jsb -> djg
+  njf -> njf_XOR_jsb
+  jsb -> njf_XOR_jsb
+  y36_AND_x36[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y36_AND_x36 -> hjs
+  y36 -> y36_AND_x36
+  x36 -> y36_AND_x36
+  y31_XOR_x31[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y31_XOR_x31 -> qvw
+  y31 -> y31_XOR_x31
+  x31 -> y31_XOR_x31
+  stm_OR_mgr[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  stm_OR_mgr -> cpv
+  stm -> stm_OR_mgr
+  mgr -> stm_OR_mgr
+  y02_AND_x02[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y02_AND_x02 -> kwm
+  y02 -> y02_AND_x02
+  x02 -> y02_AND_x02
+  x03_AND_y03[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x03_AND_y03 -> jmr
+  x03 -> x03_AND_y03
+  y03 -> x03_AND_y03
+  wcc_OR_jjp[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  wcc_OR_jjp -> fqp
+  wcc -> wcc_OR_jjp
+  jjp -> wcc_OR_jjp
+  btd_XOR_scj[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  btd_XOR_scj -> z43
+  btd -> btd_XOR_scj
+  scj -> btd_XOR_scj
+  y24_AND_x24[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y24_AND_x24 -> hjm
+  y24 -> y24_AND_x24
+  x24 -> y24_AND_x24
+  y32_XOR_x32[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y32_XOR_x32 -> pgs
+  y32 -> y32_XOR_x32
+  x32 -> y32_XOR_x32
+  y12_XOR_x12[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y12_XOR_x12 -> jsb
+  y12 -> y12_XOR_x12
+  x12 -> y12_XOR_x12
+  y23_XOR_x23[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y23_XOR_x23 -> tkb
+  y23 -> y23_XOR_x23
+  x23 -> y23_XOR_x23
+  kfb_OR_njj[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  kfb_OR_njj -> gpv
+  kfb -> kfb_OR_njj
+  njj -> kfb_OR_njj
+  y22_XOR_x22[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y22_XOR_x22 -> kvp
+  y22 -> y22_XOR_x22
+  x22 -> y22_XOR_x22
+  x16_XOR_y16[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x16_XOR_y16 -> nqd
+  x16 -> x16_XOR_y16
+  y16 -> x16_XOR_y16
+  dhr_AND_cvb[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  dhr_AND_cvb -> qqp
+  dhr -> dhr_AND_cvb
+  cvb -> dhr_AND_cvb
+  y25_AND_x25[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y25_AND_x25 -> ffg
+  y25 -> y25_AND_x25
+  x25 -> y25_AND_x25
+  fbk_XOR_ntj[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  fbk_XOR_ntj -> z03
+  fbk -> fbk_XOR_ntj
+  ntj -> fbk_XOR_ntj
+  wqw_AND_mtm[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  wqw_AND_mtm -> rdt
+  wqw -> wqw_AND_mtm
+  mtm -> wqw_AND_mtm
+  qvw_AND_smd[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  qvw_AND_smd -> dkq
+  qvw -> qvw_AND_smd
+  smd -> qvw_AND_smd
+  kgm_OR_smk[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  kgm_OR_smk -> rmg
+  kgm -> kgm_OR_smk
+  smk -> kgm_OR_smk
+  hww_XOR_fkc[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  hww_XOR_fkc -> z11
+  hww -> hww_XOR_fkc
+  fkc -> hww_XOR_fkc
+  dcc_OR_wkn[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  dcc_OR_wkn -> njf
+  dcc -> dcc_OR_wkn
+  wkn -> dcc_OR_wkn
+  x09_XOR_y09[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x09_XOR_y09 -> pmb
+  x09 -> x09_XOR_y09
+  y09 -> x09_XOR_y09
+  fbf_OR_npg[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  fbf_OR_npg -> gtk
+  fbf -> fbf_OR_npg
+  npg -> fbf_OR_npg
+  y15_XOR_x15[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y15_XOR_x15 -> ktv
+  y15 -> y15_XOR_x15
+  x15 -> y15_XOR_x15
+  nbp_XOR_tnq[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  nbp_XOR_tnq -> z14
+  nbp -> nbp_XOR_tnq
+  tnq -> nbp_XOR_tnq
+  tbs_AND_kvp[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  tbs_AND_kvp -> njd
+  tbs -> tbs_AND_kvp
+  kvp -> tbs_AND_kvp
+  qcp_XOR_pft[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  qcp_XOR_pft -> z18
+  qcp -> qcp_XOR_pft
+  pft -> qcp_XOR_pft
+  sqr_AND_wpd[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  sqr_AND_wpd -> tpj
+  sqr -> sqr_AND_wpd
+  wpd -> sqr_AND_wpd
+  jmr_OR_dps[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  jmr_OR_dps -> mpf
+  jmr -> jmr_OR_dps
+  dps -> jmr_OR_dps
+  y20_AND_x20[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y20_AND_x20 -> rpc
+  y20 -> y20_AND_x20
+  x20 -> y20_AND_x20
+  tmc_OR_tpk[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  tmc_OR_tpk -> fjb
+  tmc -> tmc_OR_tpk
+  tpk -> tmc_OR_tpk
+  fsc_OR_bcq[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  fsc_OR_bcq -> qjc
+  fsc -> fsc_OR_bcq
+  bcq -> fsc_OR_bcq
+  qdg_XOR_fqp[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  qdg_XOR_fqp -> z27
+  qdg -> qdg_XOR_fqp
+  fqp -> qdg_XOR_fqp
+  x28_AND_y28[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x28_AND_y28 -> kgm
+  x28 -> x28_AND_y28
+  y28 -> x28_AND_y28
+  y32_AND_x32[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y32_AND_x32 -> psb
+  y32 -> y32_AND_x32
+  x32 -> y32_AND_x32
+  y17_XOR_x17[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y17_XOR_x17 -> wjh
+  y17 -> y17_XOR_x17
+  x17 -> y17_XOR_x17
+  mcq_OR_rpj[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  mcq_OR_rpj -> sqr
+  mcq -> mcq_OR_rpj
+  rpj -> mcq_OR_rpj
+  dsd_XOR_spf[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  dsd_XOR_spf -> z38
+  dsd -> dsd_XOR_spf
+  spf -> dsd_XOR_spf
+  mfp_AND_rnc[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  mfp_AND_rnc -> fbf
+  mfp -> mfp_AND_rnc
+  rnc -> mfp_AND_rnc
+  dgh_OR_vpj[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  dgh_OR_vpj -> z45
+  dgh -> dgh_OR_vpj
+  vpj -> dgh_OR_vpj
+  jsb_AND_njf[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jsb_AND_njf -> z12
+  jsb -> jsb_AND_njf
+  njf -> jsb_AND_njf
+  kgp_OR_kmb[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  kgp_OR_kmb -> rkn
+  kgp -> kgp_OR_kmb
+  kmb -> kgp_OR_kmb
+  dmn_XOR_rkw[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  dmn_XOR_rkw -> z30
+  dmn -> dmn_XOR_rkw
+  rkw -> dmn_XOR_rkw
+  csm_OR_gvt[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  csm_OR_gvt -> cgt
+  csm -> csm_OR_gvt
+  gvt -> csm_OR_gvt
+  y03_XOR_x03[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y03_XOR_x03 -> fbk
+  y03 -> y03_XOR_x03
+  x03 -> y03_XOR_x03
+  y05_XOR_x05[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y05_XOR_x05 -> kdm
+  y05 -> y05_XOR_x05
+  x05 -> y05_XOR_x05
+  hhp_AND_tjm[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  hhp_AND_tjm -> spj
+  hhp -> hhp_AND_tjm
+  tjm -> hhp_AND_tjm
+  qjc_XOR_kbs[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  qjc_XOR_kbs -> sbg
+  qjc -> qjc_XOR_kbs
+  kbs -> qjc_XOR_kbs
+  rqp_AND_hcd[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  rqp_AND_hcd -> sqt
+  rqp -> rqp_AND_hcd
+  hcd -> rqp_AND_hcd
+  x01_XOR_y01[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x01_XOR_y01 -> rvb
+  x01 -> x01_XOR_y01
+  y01 -> x01_XOR_y01
+  y30_XOR_x30[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y30_XOR_x30 -> rkw
+  y30 -> y30_XOR_x30
+  x30 -> y30_XOR_x30
+  wqw_XOR_mtm[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  wqw_XOR_mtm -> z08
+  wqw -> wqw_XOR_mtm
+  mtm -> wqw_XOR_mtm
+  y08_XOR_x08[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y08_XOR_x08 -> wqw
+  y08 -> y08_XOR_x08
+  x08 -> y08_XOR_x08
+  mrf_OR_pgc[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  mrf_OR_pgc -> kvh
+  mrf -> mrf_OR_pgc
+  pgc -> mrf_OR_pgc
+  x24_XOR_y24[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x24_XOR_y24 -> mcq
+  x24 -> x24_XOR_y24
+  y24 -> x24_XOR_y24
+  jpc_OR_vsk[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  jpc_OR_vsk -> hqv
+  jpc -> jpc_OR_vsk
+  vsk -> jpc_OR_vsk
+  hww_AND_fkc[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  hww_AND_fkc -> dcc
+  hww -> hww_AND_fkc
+  fkc -> hww_AND_fkc
+  dhb_AND_ktv[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  dhb_AND_ktv -> pks
+  dhb -> dhb_AND_ktv
+  ktv -> dhb_AND_ktv
+  tbs_XOR_kvp[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  tbs_XOR_kvp -> z22
+  tbs -> tbs_XOR_kvp
+  kvp -> tbs_XOR_kvp
+  trd_OR_jqg[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  trd_OR_jqg -> nrd
+  trd -> trd_OR_jqg
+  jqg -> trd_OR_jqg
+  jfn_AND_fjb[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jfn_AND_fjb -> vpj
+  jfn -> jfn_AND_fjb
+  fjb -> jfn_AND_fjb
+  trw_AND_pmb[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  trw_AND_pmb -> pvb
+  trw -> trw_AND_pmb
+  pmb -> trw_AND_pmb
+  cpv_AND_wjh[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  cpv_AND_wjh -> jtp
+  cpv -> cpv_AND_wjh
+  wjh -> cpv_AND_wjh
+  kbm_XOR_dgv[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  kbm_XOR_dgv -> z35
+  kbm -> kbm_XOR_dgv
+  dgv -> kbm_XOR_dgv
+  hhm_XOR_rmg[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  hhm_XOR_rmg -> z29
+  hhm -> hhm_XOR_rmg
+  rmg -> hhm_XOR_rmg
+  y07_XOR_x07[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y07_XOR_x07 -> dts
+  y07 -> y07_XOR_x07
+  x07 -> y07_XOR_x07
+  whm_OR_qss[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  whm_OR_qss -> mtm
+  whm -> whm_OR_qss
+  qss -> whm_OR_qss
+  nqq_AND_hgv[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  nqq_AND_hgv -> mdk
+  nqq -> nqq_AND_hgv
+  hgv -> nqq_AND_hgv
+  dmn_AND_rkw[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  dmn_AND_rkw -> gwm
+  dmn -> dmn_AND_rkw
+  rkw -> dmn_AND_rkw
+  x43_AND_y43[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x43_AND_y43 -> tmc
+  x43 -> x43_AND_y43
+  y43 -> x43_AND_y43
+  rmg_AND_hhm[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  rmg_AND_hhm -> ktc
+  rmg -> rmg_AND_hhm
+  hhm -> rmg_AND_hhm
+  jjc_XOR_mpf[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  jjc_XOR_mpf -> z04
+  jjc -> jjc_XOR_mpf
+  mpf -> jjc_XOR_mpf
+  y23_AND_x23[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y23_AND_x23 -> mks
+  y23 -> y23_AND_x23
+  x23 -> y23_AND_x23
+  frt_XOR_pgs[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  frt_XOR_pgs -> z32
+  frt -> frt_XOR_pgs
+  pgs -> frt_XOR_pgs
+  x19_XOR_y19[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x19_XOR_y19 -> kbs
+  x19 -> x19_XOR_y19
+  y19 -> x19_XOR_y19
+  kvh_AND_fkg[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  kvh_AND_fkg -> qns
+  kvh -> kvh_AND_fkg
+  fkg -> kvh_AND_fkg
+  bnh_OR_sbg[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  bnh_OR_sbg -> jwg
+  bnh -> bnh_OR_sbg
+  sbg -> bnh_OR_sbg
+  qsg_AND_gtk[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  qsg_AND_gtk -> fnq
+  qsg -> qsg_AND_gtk
+  gtk -> qsg_AND_gtk
+  y11_XOR_x11[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y11_XOR_x11 -> fkc
+  y11 -> y11_XOR_x11
+  x11 -> y11_XOR_x11
+  vfq_OR_psb[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  vfq_OR_psb -> wrg
+  vfq -> vfq_OR_psb
+  psb -> vfq_OR_psb
+  bpg_OR_jtp[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  bpg_OR_jtp -> pft
+  bpg -> bpg_OR_jtp
+  jtp -> bpg_OR_jtp
+  x29_AND_y29[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x29_AND_y29 -> rwk
+  x29 -> x29_AND_y29
+  y29 -> x29_AND_y29
+  qsg_XOR_gtk[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  qsg_XOR_gtk -> z42
+  qsg -> qsg_XOR_gtk
+  gtk -> qsg_XOR_gtk
+  x07_AND_y07[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x07_AND_y07 -> qss
+  x07 -> x07_AND_y07
+  y07 -> x07_AND_y07
+  x41_AND_y41[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x41_AND_y41 -> npg
+  x41 -> x41_AND_y41
+  y41 -> x41_AND_y41
+  kvh_XOR_fkg[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  kvh_XOR_fkg -> z39
+  kvh -> kvh_XOR_fkg
+  fkg -> kvh_XOR_fkg
+  jrb_AND_tmk[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jrb_AND_tmk -> wcc
+  jrb -> jrb_AND_tmk
+  tmk -> jrb_AND_tmk
+  y36_XOR_x36[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y36_XOR_x36 -> qmj
+  y36 -> y36_XOR_x36
+  x36 -> y36_XOR_x36
+  ntm_OR_mwj[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  ntm_OR_mwj -> tnq
+  ntm -> ntm_OR_mwj
+  mwj -> ntm_OR_mwj
+  y11_AND_x11[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y11_AND_x11 -> wkn
+  y11 -> y11_AND_x11
+  x11 -> y11_AND_x11
+  fjb_XOR_jfn[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  fjb_XOR_jfn -> z44
+  fjb -> fjb_XOR_jfn
+  jfn -> fjb_XOR_jfn
+  rwk_OR_ktc[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  rwk_OR_ktc -> dmn
+  rwk -> rwk_OR_ktc
+  ktc -> rwk_OR_ktc
+  ktt_XOR_rvb[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  ktt_XOR_rvb -> z01
+  ktt -> ktt_XOR_rvb
+  rvb -> ktt_XOR_rvb
+  mfp_XOR_rnc[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  mfp_XOR_rnc -> z41
+  mfp -> mfp_XOR_rnc
+  rnc -> mfp_XOR_rnc
+  hgv_XOR_nqq[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  hgv_XOR_nqq -> z21
+  hgv -> hgv_XOR_nqq
+  nqq -> hgv_XOR_nqq
+  x35_XOR_y35[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x35_XOR_y35 -> kbm
+  x35 -> x35_XOR_y35
+  y35 -> x35_XOR_y35
+  y35_AND_x35[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y35_AND_x35 -> mwp
+  y35 -> y35_AND_x35
+  x35 -> y35_AND_x35
+  x42_AND_y42[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x42_AND_y42 -> pcv
+  x42 -> x42_AND_y42
+  y42 -> x42_AND_y42
+  dsd_AND_spf[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  dsd_AND_spf -> mrf
+  dsd -> dsd_AND_spf
+  spf -> dsd_AND_spf
+  y02_XOR_x02[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y02_XOR_x02 -> ssq
+  y02 -> y02_XOR_x02
+  x02 -> y02_XOR_x02
+  x18_AND_y18[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x18_AND_y18 -> fsc
+  x18 -> x18_AND_y18
+  y18 -> x18_AND_y18
+  y04_XOR_x04[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y04_XOR_x04 -> jjc
+  y04 -> y04_XOR_x04
+  x04 -> y04_XOR_x04
+  rkn_XOR_ssq[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  rkn_XOR_ssq -> z02
+  rkn -> rkn_XOR_ssq
+  ssq -> rkn_XOR_ssq
+  x43_XOR_y43[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x43_XOR_y43 -> btd
+  x43 -> x43_XOR_y43
+  y43 -> x43_XOR_y43
+  dhb_XOR_ktv[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  dhb_XOR_ktv -> z15
+  dhb -> dhb_XOR_ktv
+  ktv -> dhb_XOR_ktv
+  x20_XOR_y20[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x20_XOR_y20 -> ckt
+  x20 -> x20_XOR_y20
+  y20 -> x20_XOR_y20
+  jqc_AND_qmj[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jqc_AND_qmj -> vwj
+  jqc -> jqc_AND_qmj
+  qmj -> jqc_AND_qmj
+  y21_AND_x21[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y21_AND_x21 -> nqk
+  y21 -> y21_AND_x21
+  x21 -> y21_AND_x21
+  x01_AND_y01[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x01_AND_y01 -> kgp
+  x01 -> x01_AND_y01
+  y01 -> x01_AND_y01
+  qjc_AND_kbs[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  qjc_AND_kbs -> bnh
+  qjc -> qjc_AND_kbs
+  kbs -> qjc_AND_kbs
+  fhf_OR_pvb[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  fhf_OR_pvb -> rqp
+  fhf -> fhf_OR_pvb
+  pvb -> fhf_OR_pvb
+  fnc_XOR_nbf[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  fnc_XOR_nbf -> z13
+  fnc -> fnc_XOR_nbf
+  nbf -> fnc_XOR_nbf
+  dts_AND_gpv[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  dts_AND_gpv -> whm
+  dts -> dts_AND_gpv
+  gpv -> dts_AND_gpv
+  smd_XOR_qvw[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  smd_XOR_qvw -> z31
+  smd -> smd_XOR_qvw
+  qvw -> smd_XOR_qvw
+  fjd_OR_sch[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  fjd_OR_sch -> ftg
+  fjd -> fjd_OR_sch
+  sch -> fjd_OR_sch
+  y06_XOR_x06[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y06_XOR_x06 -> mhv
+  y06 -> y06_XOR_x06
+  x06 -> y06_XOR_x06
+  tmk_XOR_jrb[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  tmk_XOR_jrb -> z26
+  tmk -> tmk_XOR_jrb
+  jrb -> tmk_XOR_jrb
+  y27_XOR_x27[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y27_XOR_x27 -> qdg
+  y27 -> y27_XOR_x27
+  x27 -> y27_XOR_x27
+  x44_XOR_y44[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x44_XOR_y44 -> jfn
+  x44 -> x44_XOR_y44
+  y44 -> x44_XOR_y44
+  qns_OR_rjk[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  qns_OR_rjk -> dhr
+  qns -> qns_OR_rjk
+  rjk -> qns_OR_rjk
+  kdm_XOR_cgt[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  kdm_XOR_cgt -> z05
+  kdm -> kdm_XOR_cgt
+  cgt -> kdm_XOR_cgt
+  kwm_OR_vsc[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  kwm_OR_vsc -> ntj
+  kwm -> kwm_OR_vsc
+  vsc -> kwm_OR_vsc
+  x22_AND_y22[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x22_AND_y22 -> bsr
+  x22 -> x22_AND_y22
+  y22 -> x22_AND_y22
+  cvb_XOR_dhr[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  cvb_XOR_dhr -> z40
+  cvb -> cvb_XOR_dhr
+  dhr -> cvb_XOR_dhr
+  y37_XOR_x37[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  y37_XOR_x37 -> tjm
+  y37 -> y37_XOR_x37
+  x37 -> y37_XOR_x37
+  x16_AND_y16[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x16_AND_y16 -> mgr
+  x16 -> x16_AND_y16
+  y16 -> x16_AND_y16
+  rkn_AND_ssq[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  rkn_AND_ssq -> vsc
+  rkn -> rkn_AND_ssq
+  ssq -> rkn_AND_ssq
+  ktt_AND_rvb[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  ktt_AND_rvb -> kmb
+  ktt -> ktt_AND_rvb
+  rvb -> ktt_AND_rvb
+  x10_XOR_y10[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x10_XOR_y10 -> hcd
+  x10 -> x10_XOR_y10
+  y10 -> x10_XOR_y10
+  pmb_XOR_trw[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  pmb_XOR_trw -> z09
+  pmb -> pmb_XOR_trw
+  trw -> pmb_XOR_trw
+  spj_OR_gqf[label=OR,style=filled,shape=invtriangle,fillcolor=greenyellow]
+  spj_OR_gqf -> z37
+  spj -> spj_OR_gqf
+  gqf -> spj_OR_gqf
+  y30_AND_x30[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  y30_AND_x30 -> bfn
+  y30 -> y30_AND_x30
+  x30 -> y30_AND_x30
+  x26_AND_y26[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x26_AND_y26 -> jjp
+  x26 -> x26_AND_y26
+  y26 -> x26_AND_y26
+  jrr_XOR_hjm[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  jrr_XOR_hjm -> z24
+  jrr -> jrr_XOR_hjm
+  hjm -> jrr_XOR_hjm
+  jwg_AND_ckt[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  jwg_AND_ckt -> bgs
+  jwg -> jwg_AND_ckt
+  ckt -> jwg_AND_ckt
+  x29_XOR_y29[label=XOR,style=filled,shape=invhouse,fillcolor=green,fontcolor=white]
+  x29_XOR_y29 -> hhm
+  x29 -> x29_XOR_y29
+  y29 -> x29_XOR_y29
+  x09_AND_y09[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  x09_AND_y09 -> fhf
+  x09 -> x09_AND_y09
+  y09 -> x09_AND_y09
+  dnd_AND_nqd[label=AND,style=filled,shape=invtrapezium,fillcolor=yellow]
+  dnd_AND_nqd -> stm
+  dnd -> dnd_AND_nqd
+  nqd -> dnd_AND_nqd
+}
