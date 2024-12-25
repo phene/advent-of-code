@@ -96,8 +96,8 @@ def style_node(node, bad_node = false)
   end
 end
 
-def write_graph(bad_outputs = [])
-  File.open('graph.dot', 'w') do |f|
+def write_graph(file, bad_outputs = [])
+  File.open(file, 'w') do |f|
     f.puts "digraph 24 {"
 
     $outputs.each_key do |out|
@@ -239,8 +239,6 @@ end
 $outputs = read_input
 puts read_number('z')
 
-write_graph
-
 # Part 2
 bad_outputs = find_bad_outputs
 
@@ -271,4 +269,10 @@ nodes_to_swap = find_swapped_outputs(groups)
 
 puts nodes_to_swap.sort.join(',')
 
-write_graph(nodes_to_swap)
+write_graph('graph-orig.dot', nodes_to_swap)
+nodes_to_swap.each_slice(2) do |o1, o2|
+  tmp = $outputs[o1]
+  $outputs[o1] = $outputs[o2]
+  $outputs[o2] = tmp
+end
+write_graph('graph-fixed.dot')
