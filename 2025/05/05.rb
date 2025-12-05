@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative '../../2023/range'
+require_relative '../../range'
 
 def fresh?(fresh_ranges, ingredient)
   fresh_ranges.any? { _1.cover? ingredient }
